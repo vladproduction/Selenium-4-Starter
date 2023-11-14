@@ -1,0 +1,63 @@
+package uitest.m4_introduction (intro);
+-setUp();
+-navigating;
+-close() vs. quit();
+-refactoring;
+-webElement:
+    representing as .html;
+    we use findElement to invoke current for example button (or else);
+    to find we use 'id', just click on element and inspect it;
+    find element (By.id() or .className or other;
+-suppose we want to fill the textFields:
+    each element has corresponding id;
+    also by id we can invoke other element depending on type of logic they are
+    click() is used for activation element
+    ClickingTest() show the Actions class with some deep mouse and keyboard options
+-to test selected webElement and how they are connected, we jump in 'savings' page:
+    first we finding webElement by id;
+    than we initiate Select object with parameter of element;
+    WebElement period = driver.findElement(By.id("period"));
+    Select select = new Select(period);
+    selecting could be for example: byValue, byVisibleText, byIndex;
+    and then we test it (Assert.assertEquals(real, expected));
+-if we want to check element state before or after an action to selected element:
+    interface WebElement provide methods to check (isDisplayed, isEnabled, isSelected)
+-if we need to find elements (plural), we have to access the element like table for example:
+    -findElement("rates") table;
+    -findElements(By.tagName("tr")) rows it return us List of elements;
+-scrapeTableDataTest() is example how to navigate and use some information through table;
+
+package uitest.m5_select_elements(how to select elements in real examples);
+-strong selectors are resistant to change;
+-weak selectors break often(ElementNotFoundException);
+1) ID:
+priory of id
+driver.findElement(By.id("register")).click();
+if element has not any id, we use something else (class name);
+2) Class name:
+not a good practice to use class_name if there are many elements with the same class;
+3) Tag name:
+using if we have to select one element on small page;
+4) Link and partial link test:
+priority of link
+driver.findElement(By.linkText("Savings")).click(); - and we are switch to this link
+5) SCC selector:
+var checkBox = driver.findElement(By.cssSelector("[type=checkbox]:not(:checked)"));
+6) XPath:
+powerful but brittle
+driver.findElement(By.xpath("//*[@id=\"rates\"]/tbody/tr[1]/td[4]"));
+var button_1 = driver.findElement(By.xpath("//form/button[contains(text(),'Register')]"));
+
+package uitest.m6_advance_options;
+-interface Alert{  is a part of selenium library
+    void dismiss(); - cancel btn
+    void accept(); - ok btn
+    String getText();
+    void sendKeys(String keysToSend); - for input
+}
+
+package uitest.m7_config_webDriver;
+-global configuration to influence single test or cover all tests at ones
+
+
+
