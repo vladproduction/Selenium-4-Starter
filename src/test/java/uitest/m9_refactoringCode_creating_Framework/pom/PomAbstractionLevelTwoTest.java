@@ -6,13 +6,10 @@ import org.testng.Assert;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
-import pages.Home;
-import pages.Savings;
+import vladproduction.com.pages.Savings;
 
-import java.util.List;
-
-import static factory.DriverFactory.newChromeDriver;
-import static pages.Savings.Period.ONE_YEAR;
+import static vladproduction.com.factory.DriverFactory.newChromeDriver;
+import static vladproduction.com.pages.Savings.Period.ONE_YEAR;
 
 public class PomAbstractionLevelTwoTest {
 

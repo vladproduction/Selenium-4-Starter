@@ -1,24 +1,15 @@
 package uitest.m8_leveragingDewTools;
 
 
-import helper.DemoHelper;
-import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.devtools.DevTools;
 import org.openqa.selenium.devtools.v119.network.Network;
 import org.openqa.selenium.devtools.v119.network.model.Request;
-import org.openqa.selenium.devtools.v85.emulation.Emulation;
-import org.openqa.selenium.support.ui.WebDriverWait;
-import org.testng.Assert;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.Test;
 
-import java.time.Duration;
 import java.util.Optional;
-
-import static org.openqa.selenium.support.ui.ExpectedConditions.visibilityOfElementLocated;
 
 public class InterceptRequestDemoTest {
 

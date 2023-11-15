@@ -6,11 +6,11 @@ import org.testng.Assert;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
-import pages.Home;
+import vladproduction.com.pages.Home;
 
 import java.util.List;
 
-import static factory.DriverFactory.newChromeDriver;
+import static vladproduction.com.factory.DriverFactory.newChromeDriver;
 
 public class PomAbstractionLevelOneTest {
 

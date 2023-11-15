@@ -1,6 +1,6 @@
 package uitest.m4_introduction;
 
-import helper.DemoHelper;
+import vladproduction.com.helper.DemoHelper;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -8,7 +8,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
-import static helper.Pages.HOME;
+import static vladproduction.com.helper.Pages.HOME;
 
 public class AttributesTest {
 

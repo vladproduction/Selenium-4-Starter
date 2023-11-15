@@ -1,6 +1,6 @@
 package uitest.m5_select_elements;
 
-import helper.DriverFactory;
+import vladproduction.com.helper.DriverFactory;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -8,7 +8,7 @@ import org.openqa.selenium.support.locators.RelativeLocator;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.Test;
 
-import static helper.Pages.HOME;
+import static vladproduction.com.helper.Pages.HOME;
 
 public class RelativeLocatorsTest {
 

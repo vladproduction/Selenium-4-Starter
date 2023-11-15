@@ -1,7 +1,6 @@
 package uitest.m9_refactoringCode_creating_Framework;
 
-import factory.DevToolsFactory;
-import factory.DriverFactory;
+import vladproduction.com.factory.DevToolsFactory;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
@@ -9,13 +8,12 @@ import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.devtools.DevTools;
 import org.testng.Assert;
 import org.testng.annotations.Test;
-import wait.WaitingUtils;
+import vladproduction.com.wait.WaitingUtils;
 
 import java.time.Duration;
 
-import static factory.DriverFactory.*;
-import static helper.DriverFactory.*;
-import static helper.Pages.LOANS;
+import static vladproduction.com.factory.DriverFactory.*;
+import static vladproduction.com.helper.Pages.LOANS;
 
 public class BasicRefactoringDemoTest {
 

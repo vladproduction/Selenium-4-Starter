@@ -1,4 +1,4 @@
-package wait;
+package vladproduction.com.wait;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;

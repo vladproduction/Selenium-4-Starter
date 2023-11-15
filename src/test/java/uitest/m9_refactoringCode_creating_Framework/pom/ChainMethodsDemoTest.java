@@ -5,10 +5,10 @@ import org.testng.Assert;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
-import pages.Loans2;
+import vladproduction.com.pages.Loans2;
 
-import static factory.DriverFactory.newChromeDriver;
-import static pages.Loans2.PeriodLoans2.ONE_MONTH;
+import static vladproduction.com.factory.DriverFactory.newChromeDriver;
+import static vladproduction.com.pages.Loans2.PeriodLoans2.ONE_MONTH;
 
 public class ChainMethodsDemoTest {
 

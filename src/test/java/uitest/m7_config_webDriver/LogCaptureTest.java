@@ -14,7 +14,7 @@ import org.testng.annotations.Test;
 
 import java.util.logging.Level;
 
-import static helper.Pages.HOME;
+import static vladproduction.com.helper.Pages.HOME;
 
 public class LogCaptureTest {
 

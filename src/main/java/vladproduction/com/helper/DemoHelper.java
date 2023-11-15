@@ -1,4 +1,4 @@
-package helper;
+package vladproduction.com.helper;
 
 public class DemoHelper {
 

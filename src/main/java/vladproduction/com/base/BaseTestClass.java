@@ -1,10 +1,10 @@
-package base;
+package vladproduction.com.base;
 
 import org.openqa.selenium.WebDriver;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 
-import static factory.DriverFactory.newChromeDriver;
+import static vladproduction.com.factory.DriverFactory.newChromeDriver;
 
 public class BaseTestClass {
 

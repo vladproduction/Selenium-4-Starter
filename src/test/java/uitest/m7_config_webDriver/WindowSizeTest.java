@@ -1,12 +1,12 @@
 package uitest.m7_config_webDriver;
 
-import helper.DemoHelper;
+import vladproduction.com.helper.DemoHelper;
 import org.openqa.selenium.Dimension;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.annotations.Test;
 
-import static helper.Pages.HOME;
+import static vladproduction.com.helper.Pages.HOME;
 
 public class WindowSizeTest {
 

@@ -6,7 +6,7 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.annotations.Test;
 
-import static helper.Pages.HOME;
+import static vladproduction.com.helper.Pages.HOME;
 
 public class BasicWebElementTest {
 

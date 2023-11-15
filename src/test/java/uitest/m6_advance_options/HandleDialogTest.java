@@ -1,14 +1,14 @@
 package uitest.m6_advance_options;
 
-import helper.DemoHelper;
-import helper.DriverFactory;
+import vladproduction.com.helper.DemoHelper;
+import vladproduction.com.helper.DriverFactory;
 import org.openqa.selenium.Alert;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
-import static helper.Pages.HOME;
+import static vladproduction.com.helper.Pages.HOME;
 
 public class HandleDialogTest {
 

@@ -1,16 +1,12 @@
 package uitest.m9_refactoringCode_creating_Framework;
 
-import base.BaseTestClass;
+import vladproduction.com.base.BaseTestClass;
 import org.openqa.selenium.By;
-import org.openqa.selenium.WebDriver;
 import org.testng.Assert;
-import org.testng.annotations.AfterMethod;
-import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
-import wait.WaitingUtils;
+import vladproduction.com.wait.WaitingUtils;
 
-import static factory.DriverFactory.newChromeDriver;
-import static helper.Pages.LOANS;
+import static vladproduction.com.helper.Pages.LOANS;
 
 public class RefactorSetupCleanup2Test extends BaseTestClass {
 

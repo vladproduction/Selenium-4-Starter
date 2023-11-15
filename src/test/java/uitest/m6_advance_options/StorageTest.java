@@ -1,7 +1,7 @@
 package uitest.m6_advance_options;
 
-import helper.DemoHelper;
-import helper.DriverFactory;
+import vladproduction.com.helper.DemoHelper;
+import vladproduction.com.helper.DriverFactory;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.html5.SessionStorage;
@@ -9,8 +9,8 @@ import org.openqa.selenium.html5.WebStorage;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
-import static helper.Pages.HOME;
-import static helper.Pages.SAVINGS;
+import static vladproduction.com.helper.Pages.HOME;
+import static vladproduction.com.helper.Pages.SAVINGS;
 
 public class StorageTest {
 

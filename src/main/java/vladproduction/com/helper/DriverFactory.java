@@ -1,4 +1,4 @@
-package helper;
+package vladproduction.com.helper;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;

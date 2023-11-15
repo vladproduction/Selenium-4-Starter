@@ -1,6 +1,6 @@
 package uitest.m5_select_elements;
 
-import helper.DriverFactory;
+import vladproduction.com.helper.DriverFactory;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -10,8 +10,8 @@ import org.testng.annotations.Test;
 
 import java.util.List;
 
-import static helper.Pages.HOME;
-import static helper.Pages.SAVINGS;
+import static vladproduction.com.helper.Pages.HOME;
+import static vladproduction.com.helper.Pages.SAVINGS;
 
 public class ByIdClassNameTagNameTest {
 

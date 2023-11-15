@@ -1,6 +1,6 @@
 package uitest.m6_advance_options;
 
-import helper.DriverFactory;
+import vladproduction.com.helper.DriverFactory;
 import org.openqa.selenium.Cookie;
 import org.openqa.selenium.WebDriver;
 import org.testng.annotations.Test;

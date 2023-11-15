@@ -1,6 +1,6 @@
 package uitest.m6_advance_options;
 
-import helper.DriverFactory;
+import vladproduction.com.helper.DriverFactory;
 import org.openqa.selenium.*;
 import org.testng.annotations.Test;
 
@@ -10,7 +10,7 @@ import java.nio.file.Files;
 import java.nio.file.Path;
 import java.nio.file.Paths;
 
-import static helper.Pages.HOME;
+import static vladproduction.com.helper.Pages.HOME;
 import static java.nio.file.StandardCopyOption.REPLACE_EXISTING;
 
 public class ScreenshotPageTest {
