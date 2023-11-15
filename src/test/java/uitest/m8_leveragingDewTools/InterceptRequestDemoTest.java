@@ -1,32 +1,39 @@
 package uitest.m8_leveragingDewTools;
 
 
+import helper.DemoHelper;
+import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.devtools.DevTools;
 import org.openqa.selenium.devtools.v119.network.Network;
 import org.openqa.selenium.devtools.v119.network.model.Request;
-import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.devtools.v85.emulation.Emulation;
+import org.openqa.selenium.support.ui.WebDriverWait;
+import org.testng.Assert;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.Test;
 
+import java.time.Duration;
 import java.util.Optional;
+
+import static org.openqa.selenium.support.ui.ExpectedConditions.visibilityOfElementLocated;
 
 public class InterceptRequestDemoTest {
 
     WebDriver driver;
     DevTools devTools;
 
-    @Test
+    //@Test
     public void howToGetDevToolsObject(){
-        FirefoxDriver firefoxDriver = new FirefoxDriver();
-        DevTools tools = firefoxDriver.getDevTools();
 
         ChromeDriver chromeDriver = new ChromeDriver();
         DevTools tools1 = chromeDriver.getDevTools();
 
         WebDriver webDriverChrome = new ChromeDriver();
         DevTools tools2 = ((ChromeDriver) webDriverChrome).getDevTools();
+
     }
 
     @Test
@@ -47,7 +54,6 @@ public class InterceptRequestDemoTest {
                     System.out.printf("URL: %s; Method: %s;\n", r.getUrl(), r.getMethod());
                 }
                 );
-
         //finally we go to desired page:
         driver.get("http://localhost:8080/web/index.html");
     }
