@@ -1,5 +1,5 @@
 # Selenium-4-Starter
-Testing web app with Selenium in Java
+**Testing web app with Selenium in Java**
 
 module_4: introduction to webDriver;
 module_5: select elements;
